@@ -12,7 +12,7 @@ ALWAYS
 
 	/* Converts tra files to UTF-8 */
 	// No exception, everything needs to be converted
-	ACTION_DEFINE_ARRAY Minscnoconvert BEGIN END
+	ACTION_DEFINE_ARRAY Minscnoconvert BEGIN install END
 
 	// any tra files used in LANGUAGE need to be reloaded after UTF-8 conversion
 	ACTION_DEFINE_ARRAY Minscreload BEGIN minscfriendship baldur END
@@ -40,6 +40,10 @@ LANGUAGE ~Russian (translation by Arkie & Arcanecoast.ru)~
 LANGUAGE ~Espanol (traduccion por Magis365)~
          ~spanish~
          ~minscfriendship/translations/spanish/minscfriendship.tra~
+
+LANGUAGE ~Simplified Chinese (translation by Merzbau)~
+         ~schinese~
+         ~minscfriendship/translations/schinese/install.tra~
 
 
 /* =================================== *
