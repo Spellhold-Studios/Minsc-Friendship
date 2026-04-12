@@ -10,16 +10,17 @@ AUTO_TRA ~minscfriendship/translations/%s~
 
 ALWAYS
 
-	/* Converts tra files to UTF-8 */
+	/* Converts tra files from UTF-8 */
 	// No exception, everything needs to be converted
-	ACTION_DEFINE_ARRAY Minscnoconvert BEGIN END
+	ACTION_DEFINE_ARRAY Minscnoconvert BEGIN minscfriendship END
 
 	// any tra files used in LANGUAGE need to be reloaded after UTF-8 conversion
-	ACTION_DEFINE_ARRAY Minscreload BEGIN minscfriendship baldur END
+	ACTION_DEFINE_ARRAY Minscreload BEGIN baldur END
 
 	LAF HANDLE_CHARSETS
 		INT_VAR
 			infer_charsets = 1
+			from_utf8 = 1
 		STR_VAR
 			tra_path = EVAL ~%MOD_FOLDER%/translations~
 			noconvert_array = Minscnoconvert
@@ -41,7 +42,10 @@ LANGUAGE ~Espanol (traduccion por Magis365)~
          ~spanish~
          ~minscfriendship/translations/spanish/minscfriendship.tra~
 
-
+LANGUAGE ~Chinese~
+         ~schinese~
+         ~minscfriendship/translations/schinese/minscfriendship.tra~
+		 
 /* =================================== *
  *    Minsc Friendship for BG2: ToB    *
  * =================================== */
