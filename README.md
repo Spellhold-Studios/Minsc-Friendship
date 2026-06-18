@@ -14,8 +14,7 @@ Baldur's Gate Trilogy and EET<h3>
 
 
 **Author:** Lava Del'Vortel, Kaeloree & AionZ (aka Artemius_I)  
-**Mod Website:** <a href="http://www.spellholdstudios.net/ie/npciep">Spellhold Studios</a>  
-**Mod Forum:** <a href="http://www.shsforums.net/forum/668-minsc-friendship/">Minsc Friendship</a><br /><br />
+ **Mod Forum:** <a href="http://www.shsforums.net/forum/668-minsc-friendship/">Minsc Friendship</a><br /><br />
 ## 
 
 [![Created Badge](https://badges.pufler.dev/created/SpellholdStudios/MinscFriendship?style=plastic)](https://badges.pufler.dev)
@@ -48,7 +47,7 @@ One of the things many find sorely lacking in the Bioware NPCs are the more comp
 This mod adds a series of dialogues with Minsc.
 
 
-Visit the <a href="http://www.spellholdstudios.net/ie/npciep">website</a> or <a href="http://www.shsforums.net/forum/668-minsc-friendship">forum</a> for all the latest updates.
+Visit the <a href="http://www.shsforums.net/forum/668-minsc-friendship">forum</a> for all the latest updates.
 
 
 <hr>
